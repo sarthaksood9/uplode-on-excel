@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Database Report</title>
+</head>
+<body>
+  <h1>Database Report</h1>
+  <ul>
+    <% data.forEach(function(item) { %>
+      <li style="height: 100vh;">Name: <%= item.Id %>, Age: <%= item.Age %></li>
+      <!-- Add other fields as needed -->
+    <% }); %>
+  </ul>
+</body>
+</html>
